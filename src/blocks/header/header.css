@@ -1,0 +1,17 @@
+.header{
+  margin-left: 200px;
+  margin-right: 200px;
+  border-bottom: 1px solid rgb(84, 84, 84, 0.7);
+  border-width: 100%;
+  padding-bottom: 38px;
+}
+@media (max-width: 1040px) {
+  .header{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 31px;
+    width: 320px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

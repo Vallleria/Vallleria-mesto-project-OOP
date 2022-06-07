@@ -1,0 +1,27 @@
+.popup__close-icon{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  align-self: flex-end;
+  cursor: pointer;
+  margin-bottom: 8px;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  background-image: url(../../../images/Close-Icon.svg);
+  background-size: cover;
+  background-position: center;
+  left: 438px;
+  top: -38px;
+}
+.popup__close-icon:hover{
+  opacity: 0.6;
+}
+@media (max-width: 1040px) {
+  .popup__close-icon{
+    width: 20px;
+    height: 20px;
+    left: 265px;
+  }
+}

@@ -1,0 +1,14 @@
+.popup-photo-card__container{
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 430px;
+  flex-direction: column;
+}
+
+@media (max-width: 1040px) {
+  .popup-photo-card__container{
+    width: 282px;
+  }
+}

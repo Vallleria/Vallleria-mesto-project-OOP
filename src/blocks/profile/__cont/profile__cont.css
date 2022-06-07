@@ -1,0 +1,9 @@
+.profile__cont{
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1040px) {
+  .profile__cont{
+    flex-direction: column;
+  }
+}

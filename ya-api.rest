@@ -1,0 +1,51 @@
+### Получить список карточек
+GET https://nomoreparties.co/v1/plus-cohort-8/cards
+Authorization: ea8c1163-cccd-4399-b8e7-d9e45c9dcbeb
+
+
+### Получить информацию о себе
+GET https://nomoreparties.co/v1/plus-cohort-8/users/me
+Authorization: ea8c1163-cccd-4399-b8e7-d9e45c9dcbeb
+
+
+### Обновить имя и о себе
+PATCH https://nomoreparties.co/v1/plus-cohort-8/users/me
+Authorization: ea8c1163-cccd-4399-b8e7-d9e45c9dcbeb
+Content-Type: application/json
+
+{
+    "name": "Jacques Cousteau",
+    "about": "Sailor, researcher"
+}
+
+### Добавить новую карточку (имя, ссылку)
+POST https://nomoreparties.co/v1/plus-cohort-8/cards
+Authorization: ea8c1163-cccd-4399-b8e7-d9e45c9dcbeb
+Content-Type: application/json
+
+{
+    "name": "Mi mi",
+    "link": "https://images.theconversation.com/files/443350/original/file-20220131-15-1ndq1m6.jpg"
+}
+
+### Удалить каточку по id
+DELETE https://nomoreparties.co/v1/plus-cohort-8/cards/6252c36d3407a100bb5e8718
+Authorization: ea8c1163-cccd-4399-b8e7-d9e45c9dcbeb
+
+### Лайкнуть карточку
+PUT https://nomoreparties.co/v1/plus-cohort-8/cards/likes/6252c5aa3407a100bb5ee8fc
+Authorization: ea8c1163-cccd-4399-b8e7-d9e45c9dcbeb
+
+### Удалить лайк у карточки
+DELETE https://nomoreparties.co/v1/plus-cohort-8/cards/likes/6252c5aa3407a100bb5ee8fc
+Authorization: ea8c1163-cccd-4399-b8e7-d9e45c9dcbeb
+
+
+### Поменять аватар
+PATCH https://nomoreparties.co/v1/plus-cohort-8/users/me/avatar
+Authorization: ea8c1163-cccd-4399-b8e7-d9e45c9dcbeb
+Content-Type: application/json
+
+{
+    "avatar": "https://images.theconversation.com/files/443350/original/file-20220131-15-1ndq1m6.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C3354%2C2464&q=45&auto=format&w=926&fit=clip"
+}

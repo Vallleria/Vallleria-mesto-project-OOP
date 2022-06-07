@@ -1,0 +1,14 @@
+.element__cont{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  max-width: 282px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-left: 21px;
+  margin-right: 20px;
+  padding-bottom: 25px;
+
+}

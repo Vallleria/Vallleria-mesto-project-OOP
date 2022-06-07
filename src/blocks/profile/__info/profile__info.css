@@ -1,0 +1,15 @@
+.profile__info{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas:
+    "title button"
+    "subtitle subtitle";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 336px;
+  color: #fff;
+  align-items: center;
+}

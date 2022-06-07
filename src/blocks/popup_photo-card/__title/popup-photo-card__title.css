@@ -1,0 +1,19 @@
+.popup-photo-card__title{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1040px) {
+  .popup-photo-card__title{
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+}
+

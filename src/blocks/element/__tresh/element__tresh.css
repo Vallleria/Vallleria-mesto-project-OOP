@@ -1,0 +1,17 @@
+.element__tresh{
+  top: 25px;
+  right: 25px;
+  position: absolute;
+  z-index: 2;
+  width: 18px;
+  height: 19px;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  background-image: url(../../../images/Trash.svg);
+}
+.element__tresh-nonActive{
+  display: none;
+}
