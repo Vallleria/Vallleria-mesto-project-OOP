@@ -215,6 +215,8 @@ avatarEdit.addEventListener('click', () => {
   popupAvatar.openPopup();
 });
 
+
+
 // 5 мес массовая валидация
 enableValidation(validationConfig);
 
