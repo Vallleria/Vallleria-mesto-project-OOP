@@ -5,7 +5,7 @@ import { enableValidation, FormValidator, validationConfig } from './components/
 import { api } from './components/Api.js'
 import { UserInfo } from './components/UserInfo.js'
 import { Section } from './components/Section.js'
-import { Card } from './components/Card.js'
+import { Card } from './components/Card.js';
 
 
 
@@ -186,6 +186,7 @@ Promise.all([api.getCard(), api.getName()]).then(([cards, user]) => {
 }).catch(err => {
   console.log(err);
 });
+
 
 
 // попап редактирования профиля
