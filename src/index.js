@@ -124,9 +124,6 @@ const createCardHandlers = (cardItem, user) => {
 }
 
 
-
-
-
 api.getName()
   .then(userData => {
     userInfo.setUserInfo(userData);
@@ -135,6 +132,7 @@ api.getName()
   .catch(err => {
     console.log(err);
   });
+
 
 
 Promise.all([api.getCard(), api.getName()]).then(([cards, user]) => {
